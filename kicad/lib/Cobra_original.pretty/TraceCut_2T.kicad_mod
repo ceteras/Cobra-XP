@@ -1,0 +1,49 @@
+(footprint "TraceCut_2T" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at -0.01 -0.83 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 23b75ce0-1a03-4d6c-bedc-0b719f654d89)
+  )
+  (fp_text value "TraceCut_2T" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a96b438d-6490-4f0e-a689-99b2f9660966)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b2b67a0c-06d5-457b-997e-2eab9c479dfe)
+  )
+  (fp_poly
+    (pts
+      (xy 0.15 0)
+      (xy 0.35 -0.1)
+      (xy 0.5 -0.1)
+      (xy 0.5 0.1)
+      (xy 0.35 0.1)
+    )
+
+    (stroke (width 0.02) (type solid)) (fill solid) (layer "F.Cu") (tstamp cfc6a673-3aab-4560-a40c-65aa05064268))
+  (fp_poly
+    (pts
+      (xy 0.2 -0.1)
+      (xy 0 0)
+      (xy 0.2 0.1)
+      (xy -0.2 0.1)
+      (xy -0.2 -0.1)
+    )
+
+    (stroke (width 0.02) (type solid)) (fill solid) (layer "F.Cu") (tstamp ecfb2f85-a88d-4aa1-b1ab-6634412b782c))
+  (fp_poly
+    (pts
+      (xy -0.06 -0.11)
+      (xy 0.37 -0.11)
+      (xy 0.37 0.11)
+      (xy -0.06 0.11)
+    )
+
+    (stroke (width 0.02) (type solid)) (fill solid) (layer "F.Mask") (tstamp 198f16e9-dd4e-42ec-b1e2-ef17c24c1530))
+  (pad "1" smd roundrect (at -0.3 0 90) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (thermal_bridge_angle 45) (tstamp 404879c9-7a95-4c79-8218-86c91209e0dc))
+  (pad "2" smd roundrect (at 0.625 0 90) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (thermal_bridge_angle 45) (tstamp 5574424c-ae1d-4774-b1ec-6d251b65e115))
+)

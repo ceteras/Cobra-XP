@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "main-rescue")(type "Legacy")(uri "${KIPRJMOD}/main-rescue.lib")(options "")(descr ""))
+  (lib (name "Cobra_original")(type "KiCad")(uri "${KIPRJMOD}/cobra.kicad_sym")(options "")(descr ""))
+)

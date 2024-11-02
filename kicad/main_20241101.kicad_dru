@@ -1,0 +1,4 @@
+(version 1)
+(rule allow_silk_collisions
+	(constraint	silk_clearance (min -1mm))
+	(condition "A.insideArea('silk_ok')"))
