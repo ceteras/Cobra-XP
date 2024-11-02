@@ -9,6 +9,7 @@
     ],
     "hidden_nets": [
       "",
+      "GNDD",
       "/Z80_CPU/nBUSRQ",
       "/Z80_CPU/A10",
       "/Z80_CPU/nIORQ",
@@ -1094,7 +1095,13 @@
       "/Video_memory/MVA8",
       "/64K RAM & MUX/MA8",
       "/Interface & Voltage Adapters/ATO",
-      "Net-(J3-Pad3)"
+      "Net-(J3-Pad3)",
+      "/Extras/IO1",
+      "/Extras/IO2",
+      "/Extras/IO3",
+      "/Extras/IO4",
+      "/Extras/IO5",
+      "/Extras/IO9"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,
