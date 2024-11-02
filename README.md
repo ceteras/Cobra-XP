@@ -1,4 +1,4 @@
-# CoBra
+# CoBra XP
 
 CoBra XP is a Z80 computer design derived from the Cobra project.  
 
