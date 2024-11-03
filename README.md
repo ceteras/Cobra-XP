@@ -38,9 +38,9 @@ O comandă pentru un lot de plăci a fost plasată către unul dintre cei mai po
 - zona de prototipare, poate incapea un soclu PLCC 84 THT
 - 5 amprente DIN de 28 pini 7,62 mm nepopulate, cu cipuri 26CV12 GAL de exemplu.  
 fiecare dintre ele are un rând de contacte conectate la fiecare pini pentru cablare mai ușoară
-- 6x headers cu 10 pini plus unul cu 4 pini pentru alimentare, conectate la magistralele de adresa și date plus câteva semnale importante de pe placă  
+- 6x headere cu 10 pini plus unul cu 4 pini pentru alimentare, conectate la magistralele de adresa și date plus câteva semnale importante de pe placă  
 aceasta este menită să permită crearea de plăci de extensie.  
-din păcate, nu se potrivesc cu un perfboard, nu le-am putut alinia la pasul de 0,1 inch  
+se potrivesc cu un perfboard, sunt aliniate la pasul de 0,1 inch  
 un șablon pentru o placă extensie este în lucru
 - 8x puncte de testare GND răspândite pe toată placa, destinate punctelor de testare cu buclă, utile pentru a agăța o clemă de masă a sondei osciloscopului
 - magistralele de adrese și de date sunt, de asemenea, prezente ca puncte de testare

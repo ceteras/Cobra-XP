@@ -38,7 +38,7 @@ An order for a batch of boards has been placed to one of the very popular pcb ma
 each of them has a row of pads connected to each pins for easier wiring
 - 6x 10 pin headers plus one 4 pin for power, connected to address and data bus plus some important signals on the board  
 this is intended to allow creating daughter boards.   
-unfortunately they don't fit a perfboard, could not align them to 0.1 inch pitch  
+they fit a perfboard, they are aligned to a 0.1 inch pitch  
 a template for an daughter board is in the works
 - 8x GND test points spread throughout the board, intended for beaded test points useful to hook a scope probe ground clip
 - address and data busses are also present as test points
