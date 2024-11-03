@@ -1,4 +1,4 @@
-21990242161287814
+21988512785423294
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6339,7 +6339,7 @@ DIN-5
 Din 5 (MIDI), Pro Signal P/N PSG03463
 DIN 41524, 5 pin
 0
-7
+9
 6
 Cobra_original
 DIN41612_R_3x32_Male_Horizontal_THT
@@ -90937,21 +90937,14 @@ TRIM_3296W-1-250
 3
 3
 oshw
-CoBra_Logo_Static
-Converted using: scripting
-svg2mod
-0
-0
-0
-oshw
-SiglaCoBra
+Logo
 
 
 0
 0
 0
 oshw
-SiglaCoBra2
+QR
 
 
 0

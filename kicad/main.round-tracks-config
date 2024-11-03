@@ -1,4 +1,4 @@
-Default	False	1.0	3
-Gnd	False	1.0	3
+Default	True	1.0	3
+Gnd	True	1.0	3
 Vcc	True	1.0	3
 False	True	False
