@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Cobra_original")(type "KiCad")(uri "${KIPRJMOD}/../../../kicad/lib/Cobra_original.pretty")(options "")(descr ""))
+)

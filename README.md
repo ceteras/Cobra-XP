@@ -41,7 +41,7 @@ fiecare dintre ele are un rând de contacte conectate la fiecare pini pentru cab
 - 6x headere cu 10 pini plus unul cu 4 pini pentru alimentare, conectate la magistralele de adresa și date plus câteva semnale importante de pe placă  
 aceasta este menită să permită crearea de plăci de extensie.  
 se potrivesc cu un perfboard, sunt aliniate la pasul de 0,1 inch  
-un șablon pentru o placă extensie este în lucru
+un șablon pentru o placă extensie poate fi vazut in extensions/template
 - 8x puncte de testare GND răspândite pe toată placa, destinate punctelor de testare cu buclă, utile pentru a agăța o clemă de masă a sondei osciloscopului
 - magistralele de adrese și de date sunt, de asemenea, prezente ca puncte de testare
 - jumperii smd "taie" unele conexiuni, majoritatea în partea de dos a placii, ajută la modificari, [documentația aici](https://github.com/ceteras/Cobra-Xp/blob/main/documentation/Jumpers.ods)
