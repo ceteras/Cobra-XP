@@ -39,7 +39,7 @@ each of them has a row of pads connected to each pins for easier wiring
 - 6x 10 pin headers plus one 4 pin for power, connected to address and data bus plus some important signals on the board  
 this is intended to allow creating daughter boards.   
 they fit a perfboard, they are aligned to a 0.1 inch pitch  
-a template for an daughter board can be seen in extensions/template
+a template for an extension daughter board can be seen in extensions/template
 - 8x GND test points spread throughout the board, intended for beaded test points useful to hook a scope probe ground clip
 - address and data busses are also present as test points
 - smd jumpers split some connections, most of them on the bottom side, they help with modding, [documentation here](https://github.com/ceteras/Cobra-Xp/blob/main/documentation/Jumpers.ods)
