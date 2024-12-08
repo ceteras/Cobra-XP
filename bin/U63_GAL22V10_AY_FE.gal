@@ -1,0 +1,35 @@
+chip 22V10;
+
+pin 2 bA14;
+pin 3 bA7;
+pin 4 bA6;
+pin 5 bA5;
+pin 6 bA4;
+pin 7 bA3;
+pin 8 bA2;
+pin 9 bA1;
+pin 10 bA0;
+pin 13 nIOWR;
+pin 14 bA15;
+pin 15 bnM1;
+pin 16 BC1;
+pin 17 BDIR;
+pin 18 CS8255;
+pin 19 NC19;
+pin 20 NC20;
+pin 21 NC21;
+pin 22 NC22;
+pin 23 NC23;
+
+
+bA15.OE=0;
+bnM1.OE=0;
+NC19.OE=0;
+NC20.OE=0;
+NC21.OE=0;
+NC22.OE=0;
+NC23.OE=0;
+
+BDIR = !bA1 * bA15 * bnM1 * !nIOWR;
+BC1 = !bA1 * bA14 * bA15 * bnM1 * !nIOWR;
+CS8255 = !bA0 * !bA5 + bA0 * bA5 + !bA1 * bA5 + !bA2 * bA5 + !bA3 * bA5 + !bA4 * bA5 + bA5 * !bA7 + bA5 * !bA6;
