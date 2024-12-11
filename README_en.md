@@ -20,6 +20,10 @@ An order for a batch of boards has been placed to one of the very popular pcb ma
 
 ![CoBra mainboard](https://github.com/ceteras/Cobra-Xp/blob/main/img/mainboard.png?raw=true)
 
+The 10 boards have arrived to those who joined the group order, and one of them is up & running, in the 64K configuration.
+
+![CoBra mainboard](https://github.com/ceteras/Cobra-Xp/blob/main/img/CobraXP_NM.jpg?raw=true)
+
 ## Specs:
 
 - 3.5MHz Z80A CPU
