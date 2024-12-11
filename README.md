@@ -22,6 +22,10 @@ O comandă pentru un lot de plăci a fost plasată către unul dintre cei mai po
 
 ![Placa de bază CoBra](https://github.com/ceteras/Cobra-Xp/blob/main/img/mainboard.png?raw=true)
 
+Lotul de 10 placi a ajuns la cei care s-au inscris in comanda, o placa a fost pusa in functiune in varianta 64K.
+
+![Placa de bază CoBra](https://github.com/ceteras/Cobra-Xp/blob/main/img/CobraXP_NM.jpg?raw=true)
+
 ## Specificații:
 
 - CPU Z80A de 3,5 MHz
