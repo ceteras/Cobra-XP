@@ -32,13 +32,13 @@ The 10 boards have arrived to those who joined the group order, and one of them 
 - boot rom can be 27C128, 27C256, 27C512, 28C256 (28 pin)
 - BASIC interpreter rom is in 32pin socket, up to 4MBit 39SF040 (8x 16KB pages selectable in software, two more jumpers for MSB addresses)
 - 256 x 192 resolution ZX Spectrum video interface, relocatable base address (boot and CP/M modes place video area at a different address)
-- 58 keys keyboard, featuring 50 keys for ZX Spectrum mode plus 8 for CP/M
+- 58 keys keyboard, featuring 50 keys for ZX Spectrum mode plus 8 for CP/M (6 x 8 matrix)
 - AY39810 sound chip
 - i8272 floppy interface - on a daughter board (not included in the repo for now)
-- RS232 port (bit-banged)
+- RS232 port (bit-banged through 8255)
 - joystick port
 - prototyping area, can fit a PLCC 84 THT socket
-- 5 non-populated 28pin 7.62mm DIN footprints, can 26CV12 GAL chips for example.  
+- 5 non-populated 28pin 7.62mm DIP footprints, can fit 26CV12 GAL chips for example.  
 each of them has a row of pads connected to each pins for easier wiring
 - 6x 10 pin headers plus one 4 pin for power, connected to address and data bus plus some important signals on the board  
 this is intended to allow creating daughter boards.   
@@ -46,5 +46,5 @@ they fit a perfboard, they are aligned to a 0.1 inch pitch
 a template for an extension daughter board can be seen in extensions/template
 - 8x GND test points spread throughout the board, intended for beaded test points useful to hook a scope probe ground clip
 - address and data busses are also present as test points
-- smd jumpers split some connections, most of them on the bottom side, they help with modding, [documentation here](https://github.com/ceteras/Cobra-Xp/blob/main/documentation/Jumpers.ods)
+- smd jumpers split some connections, most of them on the bottom side, they help with modding, [documentation here](https://github.com/ceteras/Cobra-Xp/blob/main/documentation/Jumpers.xlsx)
 - extension port using a 3x32 pin DIN41612 connector
